@@ -83,8 +83,8 @@ Production architecture firm website with dynamic project galleries, Portable Te
 
 ## GitHub stats
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=akhil-sajan-mathew&show_icons=true&theme=dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=akhil-sajan-mathew&theme=dark&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9&background=0D1117" />
+<img height="165" src="https://github-readme-stats-sigma.vercel.app/api?username=akhil-sajan-mathew&show_icons=true&theme=dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
+<img height="165" src="https://streak-stats.demolab.com/?user=akhil-sajan-mathew&theme=dark&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9&background=0D1117" />
 
 ## Certifications
 
