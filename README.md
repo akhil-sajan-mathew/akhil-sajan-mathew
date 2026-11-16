@@ -103,6 +103,7 @@ Production architecture firm website with dynamic project galleries, Portable Te
 
 ## Certifications
 
+- Deep Learning Specialization - **DeepLearning.AI**
 - Python for Data Science — **NPTEL** (Silver Distinction)
 - Python Automation — **Google**
 
