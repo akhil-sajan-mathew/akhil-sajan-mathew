@@ -2,11 +2,11 @@
 
 # Akhil Sajan Mathew
 
-**Final-year Computer Science Engineering student** · Kerala, India · MBCCET Peermade
+**Computer Science Engineering graduate (2026)** · Kerala, India · MBCCET Peermade
 
 ## About me
 
-I specialize in **AI/ML** and **full-stack web development**, building end-to-end systems — from forensic NLP models that detect psychological manipulation to high-performance Next.js applications with headless CMS backends.
+I specialize in **AI/ML** and **full-stack web development**, building end-to-end systems — from forensic NLP models that detect psychological manipulation, to a retrieval-augmented question-answering app for farmers, to high-performance Next.js applications with headless CMS backends.
 
 I build systems that detect manipulation in text and earthquakes in waveforms — then ship the websites that present them.
 
@@ -16,6 +16,7 @@ When I'm not training models, you'll find me leading technical ops for college f
 
 - 🔭 **Building** [Vinayak & Varghese Architecture](https://vinayakandvarghese.com/) — private client project (Next.js, Sanity CMS, Framer Motion)
 - 🧠 **Researching** [ManTacAi](https://github.com/akhil-sajan-mathew/ManTacAi) — forensic NLP with fine-tuned BERT & DistilRoBERTa
+- 🌾 **Building** [Krishi RAG](https://github.com/akhil-sajan-mathew/krishi-rag) — answers farmers' questions in English and Hindi from official PDFs, with page citations
 - 🌱 **Learning** model deployment pipelines and Three.js
 
 ## Tech stack
@@ -37,6 +38,20 @@ When I'm not training models, you'll find me leading technical ops for college f
 ![Sanity](https://img.shields.io/badge/Sanity-F03E2F?style=for-the-badge&logo=sanity&logoColor=white)
 
 ## Featured work
+
+### Krishi RAG — Farmer Question Answering
+**RAG** · Python · FastAPI · Postgres + pgvector · bge-small embeddings · Redis · Docker
+
+A question-answering app for Indian farmers in English and Hindi. It answers only from six official agricultural PDFs, cites the document and page, and says so when the sources don't cover a question.
+
+- Hybrid retrieval (vector + keyword search with rank fusion), a cross-encoder reranker, and code that validates every citation
+- **88%** of questions have the right page in the top 5 results · **~76%** of English answers fully correct (60 hand-checked questions)
+- Hindi retrieval recall **0.86** after question translation, up from **0.00** without it
+- Built and tested locally with Docker and Caddy for HTTPS; the production guide is in the repo
+
+[![Source code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akhil-sajan-mathew/krishi-rag)
+
+---
 
 ### ManTacAi — Forensic AI System
 **Forensic NLP** · Python · PyTorch · BERT · DistilRoBERTa
