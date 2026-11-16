@@ -47,7 +47,7 @@ A question-answering app for Indian farmers in English and Hindi. It answers onl
 - Hybrid retrieval (vector + keyword search with rank fusion), a cross-encoder reranker, and code that validates every citation
 - **88%** of questions have the right page in the top 5 results · **~76%** of English answers fully correct (60 hand-checked questions)
 - Hindi retrieval recall **0.86** after question translation, up from **0.00** without it
-- Built and tested locally with Docker and Caddy for HTTPS; the production guide is in the repo
+- Deployed and tested with Docker and Caddy for HTTPS; the deployment guide is in the repo
 
 [![Source code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akhil-sajan-mathew/krishi-rag)
 
@@ -118,4 +118,4 @@ Production architecture firm website with dynamic project galleries, Portable Te
 
 ---
 
-<sub>Final-year B.Tech CSE @ MBCCET · KTU · CGPA 7.54 (till S7)</sub>
+<sub>B.Tech CSE (2026) @ MBCCET · KTU · CGPA 7.56</sub>
